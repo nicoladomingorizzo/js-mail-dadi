@@ -11,7 +11,7 @@ mailList.push(userMail); // promptmail inserito nella mail list
 for (let i = 0; i < mailList.length; i++) {
     console.log(mailList[i])
     if (mailList == userMail) {
-        let userMailVerified = true
+        userMailVerified = true
         break
     }
 }; // ciclo for sostitutivo a .includes
