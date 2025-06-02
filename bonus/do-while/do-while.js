@@ -22,4 +22,4 @@ do {
         console.log("I numeri usciti dal lancio dei dadi sono uguali, rilancia i dadi");
         alert("I numeri usciti dal lancio dei dadi sono uguali, rilancia i dadi");
     }
-} while (userDieResult == computerDieResult);
+} while (userDieResult === computerDieResult);

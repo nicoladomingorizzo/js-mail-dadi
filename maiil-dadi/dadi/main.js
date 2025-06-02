@@ -12,11 +12,11 @@ alert('Il dado lanciato dal computer ha dato il numero : ' + computerDieResult);
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 if (userDieResult > computerDieResult) {
-    console.log("Vince l'utente perché il numero uscito dal lancio del dado è più alto");
-    alert("Vince l'utente perché il numero uscito dal lancio del dado è più alto");
+    console.log("Vince l'utente perché il numero uscito dal lancio del suo dado è più alto");
+    alert("Vince l'utente perché il numero uscito dal lancio del suo dado è più alto");
 } else if (userDieResult < computerDieResult) {
-    console.log("Vince il computer perché il numero uscito dal lancio del dado è più alto");
-    alert("Vince il computer perché il numero uscito dal lancio del dado è più alto");
+    console.log("Vince il computer perché il numero uscito dal lancio del suo dado è più alto");
+    alert("Vince il computer perché il numero uscito dal lancio del suo dado è più alto");
 } else {
     console.log("I numeri usciti dal lancio dei dadi sono uguali, rilancia i dadi");
     alert("I numeri usciti dal lancio dei dadi sono uguali, rilancia i dadi");
