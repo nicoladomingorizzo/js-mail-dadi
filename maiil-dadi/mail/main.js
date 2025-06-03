@@ -10,7 +10,8 @@ mailList.push(userMail); // promptmail inserito nella mail list
 // controlla che sia nella lista di chi può accedere
 for (let i = 0; i < mailList.length; i++) {
     console.log(mailList[i])
-    if (mailList === userMail) {
+    const currentemail = mailList[i]
+    if (currentemail === userMail) {
         userMailVerified = true
         break
     }
